@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Booking Chat</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="chat-app">
+      <div class="chat-header">
+        <div class="chat-title">
+          <i class="fas fa-utensils"></i>
+          <h1>Table Reservations</h1>
+        </div>
+        <div class="chat-status">Online</div>
+      </div>
+
+      <div id="chat-container">
+        <!-- Messages will appear here -->
+      </div>
+
+      <div class="input-area">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Type your message..."
+          autocomplete="off"
+        />
+        <button id="send-btn">
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
